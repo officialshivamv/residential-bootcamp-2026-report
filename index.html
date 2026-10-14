@@ -45,8 +45,7 @@ a:focus-visible,button:focus-visible,input:focus-visible{outline:2px solid var(-
 /* nav */
 .nav{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:var(--bg);border-bottom:1px solid var(--line)}
 .nav-in{display:flex;flex-wrap:wrap;gap:8px;padding-block:10px}
-.nav-in a{color:var(--ink);background:#fff;border:1px solid var(--line);border-radius:6px;padding:7px 13px;text-decoration:none;font-size:14px;font-weight:700;line-height:1.2;white-space:nowrap;transition:border-color .15s,color .15s}
-.nav-in a:hover{color:var(--accent-strong);border-color:var(--ink-deep)}
+.nav-in a,.nav-in a:link,.nav-in a:visited,.nav-in a:hover,.nav-in a:active,.nav-in a:focus{color:#1F3864;background:#FFFFFF;border:1px solid #D9D9D9;border-radius:6px;padding:7px 13px;text-decoration:none;font-size:14px;font-weight:700;line-height:1.2;white-space:nowrap;-webkit-tap-highlight-color:transparent}
 .top-logos{padding-block:18px 14px}
 .top-logos .logos{margin-bottom:0}
 @media (max-width:640px){.nav{position:static}.nav-in{gap:6px}.nav-in a{font-size:13px;padding:6px 10px}}
